@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Korean Series</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Korean Series Fav</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Actores
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Park Shin-hye</a></li>
+                            <li><a class="dropdown-item" href="#">Kim Byung-chul</a></li>
+                            <li><a class="dropdown-item" href="#">Gong Yoo</a></li>
+                            <li><a class="dropdown-item" href="#">Hyun Bin</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Series
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">El Mito de Sisifo</a></li>
+                            <li><a class="dropdown-item" href="#">Recuerdos de Alhambra</a></li>
+                            <li><a class="dropdown-item" href="#">Estamos Muertos</a></li>
+                            <li><a class="dropdown-item" href="#">Mar de la Tranquilidad</a></li>
+                            <li><a class="dropdown-item" href="#">Aterrizaje de emergencia en tu corazón</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Peliculas
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">#Alive</a></li>
+                            <li><a class="dropdown-item" href="#">Pandora</a></li>
+                            <li><a class="dropdown-item" href="#">Train to Busan</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div class="container-fluid px-0 pt-5">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner header">
+                <div class="carousel-item active">
+                    <img src="/assets/img/sisifocarro.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>El Mito de Sisifo</h3>
+                        <p>Solo en Netflix.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/img/alhambracarro.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Recuerdos de Alhambra</h3>
+                        <p>Solo en Netflix.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/img/alivecarro.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>#Alive</h3>
+                        <p>Solo en Netflix.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cards -->
+
+    <div class="row row-cols-1 row-cols-md-2 g-4 mt-2 mx-3">
+        <div class="col">
+            <div class="card">
+                <div id="carouselExampleIndicators0" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators0" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators0" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators0" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active video">
+                            <iframe src="https://www.youtube.com/embed/-qMlwHnQmGM">
+                            </iframe>
+                        </div>
+                        <div class="carousel-item cardimage">
+                            <img src="/assets/img/mscard1.jpg" class="cardimage" alt="...">
+                        </div>
+                        <div class="carousel-item cardimage">
+                            <img src="/assets/img/mscard2.jpeg" class="cardimage" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">El Mito de Sísifo</h5>
+                    <p class="card-text">Un incidente inexplicable lleva a un ingeniero talentoso a descubrir peligrosos
+                        secretos del mundo y embarcarse en un viaje junto con una mujer del futuro.</p>
+                    <a href="#" class="btn btn-dark disabled">Ver Mas</a>
+                    <ul class="list-group-horizontal float-end d-flex mx-4 my-2">
+                        <li class="list-group-item"><i class="fa-solid fa-star"></i></li>
+                        <li class="list-group-item"><i class="fa-solid fa-star"></i></li>
+                        <li class="list-group-item"><i class="fa-solid fa-star"></i></li>
+                        <li class="list-group-item"><i class="fa-solid fa-star"></i></li>
+                        <li class="list-group-item"><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div id="carouselExampleIndicators1" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active video">
+                            <iframe src="https://www.youtube.com/embed/2Lcy3XUDd_A">
+                            </iframe>
+                        </div>
+                        <div class="carousel-item cardimage">
+                            <img src="/assets/img/mh2.jpg" class="cardimage" alt="...">
+                        </div>
+                        <div class="carousel-item cardimage">
+                            <img src="/assets/img/malha1.webp" class="cardimage" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Recuerdos de la Alhambra</h5>
+                    <p class="card-text">Un chico corre despavorido por Barcelona. Mientras hace negocios en España,
+                        Yoo
+                        Jin-woo recibe una llamada enigmática que lo conduce a Granada.</p>
+                    <a href="#" class="btn btn-dark disabled">Ver Mas</a>
+                    <ul class="list-group-horizontal float-end d-flex mx-4 my-2">
+                        <li class="list-group-item"><i class="fa-solid fa-star"></i></li>
+                        <li class="list-group-item"><i class="fa-solid fa-star"></i></li>
+                        <li class="list-group-item"><i class="fa-solid fa-star"></i></li>
+                        <li class="list-group-item"><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active video">
+                            <iframe src="https://www.youtube.com/embed/jQ8CCg1tOqc">
+                            </iframe>
+                        </div>
+                        <div class="carousel-item cardimage">
+                            <img src="/assets/img/alive1.jpg" class="cardimage" alt="...">
+                        </div>
+                        <div class="carousel-item cardimage">
+                            <img src="/assets/img/alive2.png" class="cardimage" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">#Alive</h5>
+                    <p class="card-text">Mientras un virus espeluznante arrasa con la ciudad, un hombre permanece
+                        encerrado solo en su departamento, desconectado y desesperado por encontrar una salida.</p>
+                    <a href="#" class="btn btn-dark disabled">Ver Mas</a>
+                    <ul class="list-group-horizontal float-end d-flex mx-4 my-2">
+                        <li class="list-group-item"><i class="fa-solid fa-star"></i></li>
+                        <li class="list-group-item"><i class="fa-solid fa-star"></i></li>
+                        <li class="list-group-item"><i class="fa-solid fa-star"></i></li>
+                        <li class="list-group-item"><i class="fa-solid fa-star-half"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div id="carouselExampleIndicators3" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active video">
+                            <iframe src="https://www.youtube.com/embed/IN5TD4VRcSM">
+                            </iframe>
+                        </div>
+                        <div class="carousel-item cardimage">
+                            <img src="/assets/img/estamosmuertos.webp" class="cardimage" alt="...">
+                        </div>
+                        <div class="carousel-item cardimage">
+                            <img src="/assets/img/estamosmuertos1.jpg" class="cardimage" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Estamos Muertos</h5>
+                    <p class="card-text pb-4">Luego de que un virus zombi se propaga por su escuela, un grupo de jóvenes
+                        atrapados debe encontrar una salida o acabar infectado.</p>
+                    <a href="#" class="btn btn-dark disabled">Ver Mas</a>
+                    <ul class="list-group-horizontal float-end d-flex mx-4 my-2">
+                        <li class="list-group-item"><i class="fa-solid fa-star"></i></li>
+                        <li class="list-group-item"><i class="fa-solid fa-star"></i></li>
+                        <li class="list-group-item"><i class="fa-solid fa-star"></i></li>
+                        <li class="list-group-item"><i class="fa-solid fa-star"></i></li>
+                        <li class="list-group-item"><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div id="carouselExampleIndicators4" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active video">
+                            <iframe src="https://www.youtube.com/embed/BSW6Q_wW_yk">
+                            </iframe>
+                        </div>
+                        <div class="carousel-item cardimage">
+                            <img src="/assets/img/silentsea1.jpg" class="cardimage" alt="...">
+                        </div>
+                        <div class="carousel-item cardimage">
+                            <img src="/assets/img/silentsea2.jpg" class="cardimage" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Mar de la Tranquilidad</h5>
+                    <p class="card-text pb-4">El informe de la directora Choi sobre la misión no deja conforme a Song
+                        Jian. A la tripulación le queda claro que llegar al centro de investigación no será nada fácil.
+                    </p>
+                    <a href="#" class="btn btn-dark disabled">Ver Mas</a>
+                    <ul class="list-group-horizontal float-end d-flex mx-4 my-2">
+                        <li class="list-group-item"><i class="fa-solid fa-star"></i></li>
+                        <li class="list-group-item"><i class="fa-solid fa-star"></i></li>
+                        <li class="list-group-item"><i class="fa-solid fa-star"></i></li>
+                        <li class="list-group-item"><i class="fa-solid fa-star"></i></li>
+                        <li class="list-group-item"><i class="fa-solid fa-star-half"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div id="carouselExampleIndicators5" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active video">
+                            <iframe src="https://www.youtube.com/embed/3r8nqm2RhUg">
+                            </iframe>
+                        </div>
+                        <div class="carousel-item cardimage">
+                            <img src="" class="cardimage" alt="...">
+                        </div>
+                        <div class="carousel-item cardimage">
+                            <img src="" class="cardimage" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Aterrizaje de emergencia en tu corazón</h5>
+                    <p class="card-text pb-4">Víctima de la violencia de los vientos, Yun Se-ri cae en parapente y
+                        despierta en el lado norte de la zona desmilitarizada coreana, donde la encuentra Ri Jeong
+                        Hyeok.</p>
+                    <a href="#" class="btn btn-dark disabled">Ver Mas</a>
+                    <ul class="list-group-horizontal float-end d-flex mx-4 my-2">
+                        <li class="list-group-item"><i class="fa-regular fa-star"></i></li>
+                        <li class="list-group-item"><i class="fa-regular fa-star"></i></li>
+                        <li class="list-group-item"><i class="fa-regular fa-star"></i></li>
+                        <li class="list-group-item"><i class="fa-regular fa-star"></i></li>
+                        <li class="list-group-item"><i class="fa-regular fa-star"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div id="carouselExampleIndicators6" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active video">
+                            <iframe src="https://www.youtube.com/embed/z3NyclfN7Ow">
+                            </iframe>
+                        </div>
+                        <div class="carousel-item cardimage">
+                            <img src="/assets/img/pandora1.jpg" class="cardimage" alt="...">
+                        </div>
+                        <div class="carousel-item cardimage">
+                            <img src="/assets/img/pandora2.jpg" class="cardimage" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Pandora</h5>
+                    <p class="card-text pb-4">Un terremoto sacude una pequeña aldea coreana donde hay una planta nuclear
+                        venida a menos. Un hombre arriesgará su vida para salvar a su pais del desastre.</p>
+                    <a href="#" class="btn btn-dark disabled">Ver Mas</a>
+                    <ul class="list-group-horizontal float-end d-flex mx-4 my-2">
+                        <li class="list-group-item"><i class="fa-solid fa-star"></i></li>
+                        <li class="list-group-item"><i class="fa-solid fa-star"></i></li>
+                        <li class="list-group-item"><i class="fa-solid fa-star"></i></li>
+                        <li class="list-group-item"><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div id="carouselExampleIndicators7" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active video">
+                            <iframe src="https://www.youtube.com/embed/pyWuHv2-Abk">
+                            </iframe>
+                        </div>
+                        <div class="carousel-item cardimage">
+                            <img src="/assets/img/traintobusan11.jpg" class="cardimage" alt="...">
+                        </div>
+                        <div class="carousel-item cardimage">
+                            <img src="/assets/img/traintobusan12.jpg" class="cardimage" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Train to Busan</h5>
+                    <p class="card-text pb-4">Una epidemia zombi se apodera del país, y un hombre y su hija deben hacer
+                        un angustioso viaje en tren para llegar a la única ciudad que sigue a salvo.</p>
+                    <a href="#" class="btn btn-dark disabled">Ver Mas</a>
+                    <ul class="list-group-horizontal float-end d-flex mx-4 my-2">
+                        <li class="list-group-item"><i class="fa-solid fa-star"></i></li>
+                        <li class="list-group-item"><i class="fa-solid fa-star"></i></li>
+                        <li class="list-group-item"><i class="fa-solid fa-star"></i></li>
+                        <li class="list-group-item"><i class="fa-solid fa-star"></i></li>
+                        <li class="list-group-item"><i class="fa-solid fa-star-half"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/e47cce1f71.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

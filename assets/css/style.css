@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(33,37,41);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.carousel-item, img {
+    height: 580px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 80% 10%;
+}
+
+.carousel-caption, h3 {
+    text-shadow: 2px 2px 1px #000000;
+}
+
+.cardimage {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.video {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+iframe {
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .carousel-item, img {
+        height: 380px;
+        object-position: 50% 10%;
+    }
+
+    .cardimage {
+        height: 200px;
+    }
+
+    .video {
+        height: 200px;
+    }
+
+    iframe {
+        height: 200px;
+    }
+}
